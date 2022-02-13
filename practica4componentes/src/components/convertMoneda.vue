@@ -9,7 +9,7 @@
               type="number"
               class="form-control form-control-lg"
               id="cantidad"
-              placeholder="Ingrese cantidad.."
+              placeholder="Ingrese cantidad"
               v-model="cantidad"
               v-on:keyup="onChange"
             />
@@ -73,7 +73,7 @@ export default {
   methods: {
     onChange() {
       switch (this.tengo) {
-        // Usuario selecciono que tiene dolares
+      
         case "USD":
           if (this.quiero === "USD") {
             this.total = this.cantidad;
@@ -85,7 +85,7 @@ export default {
             this.total = this.cantidad * 0.75;
           }
           break;
-        // Usuario selecciono que tiene euros
+       
         case "EUR":
           if (this.quiero === "USD") {
             this.total = this.cantidad * 1.19;
@@ -97,7 +97,7 @@ export default {
             this.total = this.cantidad * 0.89;
           }
           break;
-          // Usuario selecciono libra
+        
         case "LIBRA":
           if (this.quiero === "USD") {
             this.total = this.cantidad * 1.33;
