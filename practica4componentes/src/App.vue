@@ -1,11 +1,11 @@
 <template>
   <div  class ="fondo">
       <navegador/>
-        <convert-moneda/>
+        <convertMoneda/>
          <longitud/>
-         <masa/>
+         <Masa/>
          <Almacenamiento/>
-         <tiempo/>
+         <Tiempo/>
   </div>
 </template>
 
@@ -13,8 +13,9 @@
 import Navegador from './components/Navegador.vue';
 import convertMoneda from './components/convertMoneda.vue';
 import longitud from './components/longitud.vue';
-import masa from './components/masa.vue';
+import Masa from './components/masa.vue';
 import Almacenamiento from './components/Almacenamiento.vue';
+import Tiempo from './components/Tiempo.vue';
 
 
 export default {
@@ -25,7 +26,7 @@ export default {
      longitud,
      masa,
      Almacenamiento,
-     tiempo
+     Tiempo
   
   }
 }
