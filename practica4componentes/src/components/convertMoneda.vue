@@ -1,6 +1,7 @@
  <template>
   <div>
     <div class="container pt-3">
+      <h1>CONVERSOR DE MONEDAS</h1>
       <div class="row">
         <div class="col-lg-12">
           <div class="form-group">
