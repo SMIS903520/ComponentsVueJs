@@ -1,12 +1,11 @@
 <template>
   <div  class ="fondo">
       <navegador/>
-      <div id="app1">
         <convert-moneda/>
-      </div>
-      <div id="app2">
          <longitud/>
-      </div>
+         <masa/>
+         <Almacenamiento/>
+         <tiempo/>
   </div>
 </template>
 
@@ -25,7 +24,8 @@ export default {
    convertMoneda,
      longitud,
      masa,
-     Almacenamiento
+     Almacenamiento,
+     tiempo
   
   }
 }
