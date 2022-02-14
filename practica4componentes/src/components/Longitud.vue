@@ -3,7 +3,7 @@
     <div class="contrainer">
       <h1>CONVERSOR DE LONGITUDES</h1>
       <div class="row">
-        <div class=col-sm-6">
+        <div class="col-sm-6">
            <label for="inico">Convertir</label>
            <select v-model="inicio">
            <option value="m">Metro</option>
@@ -34,7 +34,7 @@
       </div>
       <div class="row">
          <div class="clo-sm-6 offset-md-3">
-            <input type="text" v-model="cantidad" class="form-control my-5 placeholder="Ingresa la cantidad">
+            <input type="text" v-model="cantidad">
          </div>
       </div>
       <div class="row">
