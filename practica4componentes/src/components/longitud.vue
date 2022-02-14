@@ -3,21 +3,7 @@
     <div class="contrainer">
       <h1>CONVERSOR DE LONGITUDES</h1>
       <div class="row">
-        <div class="col-sm-6">
-           <label for="inico">Convertir</label>
-           <select v-model="inicio">
-           <option value="m">Metro</option>
-            <option value="mm">Milímetro</option>
-            <option value="cm">Centímetro</option>
-            <option value="hm">Hectómetro</option>
-            <option value="dm">Decímetro</option>
-            <option value="km">Kilómetro</option>
-            <option value="dam">Decámetro</option>
-            <option value="yd">Yarda</option>
-            
-        </select>
-        </div>
-        <div class="col-sm-6">
+           <div class="col-sm-9">
            <label for="final">Convertir</label>
            <select v-model="final">
            <option value="m">Metro</option>
@@ -31,19 +17,36 @@
             
         </select>
         </div>
+     
+       
+        </div>
+          <div class="col-sm-6">
+           <label for="inico">Convertir</label>
+           <select v-model="inicio">
+           <option value="m">Metro</option>
+            <option value="mm">Milímetro</option>
+            <option value="cm">Centímetro</option>
+            <option value="hm">Hectómetro</option>
+            <option value="dm">Decímetro</option>
+            <option value="km">Kilómetro</option>
+            <option value="dam">Decámetro</option>
+            <option value="yd">Yarda</option>
+            
+         </select>
       </div>
       <div class="row">
-         <div class="clo-sm-6 offset-md-3">
-            <input type="text" v-model="cantidad">
+         <div class="clo-sm-2 offset-md-4">
+            <input type="text" v-model="cantidad" >
          </div>
       </div>
+      <br/>
       <div class="row">
-           <div class="col-md-12 text-center">
+           <div class="col-md-9 text-center">
               <button  v-on:click="convertir" class="btn btn-primary">Convertir</button>
            </div>
       </div>
       <div class="row mt-5">
-           <div class="col-sm-12 text-center">
+           <div class="col-sm-9 text-center">
              <label>RESULTADO</label>
              <h2>{{calculo}}</h2>
                 
