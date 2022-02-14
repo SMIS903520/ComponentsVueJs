@@ -1,31 +1,41 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <Longitud/>
+  <div  class ="fondo">
+      <navegador/>
+      <div id="app1">
+        <convert-moneda/>
+      </div>
+      <div id="app2">
+         <longitud/>
+      </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Longitud from ' .components/Longitud.vue'
+import Navegador from './components/Navegador.vue';
+import convertMoneda from './components/convertMoneda.vue';
+import longitud from './components/longitud.vue';
+import masa from './components/masa.vue';
+import Almacenamiento from './components/Almacenamiento.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-     Longitud
+   Navegador,
+   convertMoneda,
+     longitud,
+     masa,
+     Almacenamiento
+  
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.fondo{
+  background-image: url('./assets/descarga.jpg');
+  height: 100vh;
+  
 }
+
 </style>
