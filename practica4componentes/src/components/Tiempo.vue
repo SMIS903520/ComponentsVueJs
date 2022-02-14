@@ -2,6 +2,8 @@
 <template>
   <div>
     <div class="container pt-3">
+    <!--Aqui se encuentra el titulo de el comversor en el que esta-->
+    <h1>CONVERSOR DE TIEMPO</h1>
       <div class="row">
         <div class="col-lg-12">
           <div class="form-group">
