@@ -50,9 +50,9 @@
       </div>
       <div class="text-center pt-4">
         <h5 v-if="cantidad > 0">
-          <span class="badge badge-success">{{ cantidad }} {{ tengo }}</span>
-          <span class="badge badge-dark"> SON </span>
-          <span class="badge badge-success">{{ getTotal(total) }} {{ quiero }}</span>
+          <spam>{{ cantidad }} {{ tengo }}</spam>
+          <spam > SON </spam>
+          <spam>{{ getTotal(total) }} {{ quiero }}</spam>
         </h5>
       </div>
     </div>
